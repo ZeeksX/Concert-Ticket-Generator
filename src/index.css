@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+@font-face {
+  font-family: 'Jeju Myeongjo';
+  src: url("/JejuMyeongjo-Regular.ttf");
+}
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #02191D; */
+  background: radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%), #02191D;
+  font-family: 'Jeju Myeongjo', 'sans';
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .ticket{
+  background-repeat: no-repeat;
+} */
+.ticket h1,
+.road-rage {
+  font-family: 'Road Rage', "sans";
+}
+
+.page-two button {
+  font-family: 'Jeju Myeongjo';
+}
+
+.roboto,
+span,
+.ticket p,
+.ticket-select h1,
+.ticket-number h1,
+.attendance-details h1,
+.attendance-details button,
+.attendance-details label {
+  font-family: 'Roboto', "sans";
+}
+
+.ticket-title {
+  background: radial-gradient(103.64% 57.39% at 14.02% 32.06%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    , rgba(10, 12, 17, 0.1);
+  border-width: 0px 2px 2px 2px;
+  border-color: #07373F;
+}
+
+.alatsi {
+  font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
