@@ -20,7 +20,7 @@ const About = () => {
                         <a href="https://www.figma.com/community/file/1470800949188681164" target="_blank">Design File</a>
                     </button>
                     <button className="bg-[#24a0b5] w-full p-3 text-center rounded-lg border-[1px] border-[#24a0b5] hover:text-[#24a0b5] hover:bg-transparent">
-                        <a href="https://github.com/ayomikun-ade/TicketGenerator-HNG" target="_blank">GitHub Code</a>
+                        <a href="https://github.com/ZeeksX/HNG-Concert-Ticket-Generator" target="_blank">GitHub Code</a>
                     </button>
                 </div>
 
